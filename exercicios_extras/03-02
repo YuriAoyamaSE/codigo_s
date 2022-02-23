@@ -1,0 +1,25 @@
+Complete a tabela a seguir, respondendo True ou False. 
+Considere a = 4, b = 10, c = 5.0, d = 1 e f = 5.
+
+Expressão Resultado        Expressão Resultado
+a == c    ○ True ○ False   b > a     ○ True ○ False
+a < b     ○ True ○ False   c >= f    ○ True ○ False
+d > b     ○ True ○ False   f >= c    ○ True ○ False
+c != f    ○ True ○ False   c <= c    ○ True ○ False
+a == b    ○ True ○ False   c <= f    ○ True ○ False
+c < d     ○ True ○ False
+Resposta: 
+
+d < a < c = f < b
+
+False
+True
+False
+False
+False
+False
+True
+True
+True
+True
+True
