@@ -6,6 +6,7 @@ aula 03
 lista = [... , ...] 
 tupla = (... , ...)
 dicionario = {chave : valor , ...}
+set(nome_da_variavel) -> conjunto sem repetir elementos e não ordenado (index não funciona)
 """
 
 dicionario = {"SE":"Aracaju", "SP":"São Paulo"}
