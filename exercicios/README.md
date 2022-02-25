@@ -1,9 +1,7 @@
 # Exercícios resolvidos:
 
 Capítulo 2
-
 [2-1 Converta Expressões matemáticas para Python](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/02-01.py)
-
 [2-2 Converta uma expressão matemática no interpretador](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/02-02.py)
 [2-3 Faça um programa que exiba seu nome na tela](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/02-03.py)
 [2-4 Converta uma expressão matemática para Python](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/02-04.py)
