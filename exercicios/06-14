@@ -1,0 +1,8 @@
+O que acontece quando a lista já está ordenada? Rastreie o Programa 6.20, mas com a lista L = [1, 2, 3, 4, 5].
+
+Sem acesso ao Programa
+
+Gabarito:
+# Se a lista já estiver ordenada, nenhum elemento é maior que o elemento seguinte.
+# Desta forma, após a primeira verificação de todos os elementos,
+# o loop interno é interrompido pela condição de (9).

@@ -1,0 +1,5 @@
+O que acontece se digitarmos 0 (zero) no valor a pagar?
+
+Resposta: sem acesso ao programa
+
+Gabarito: O programa pára logo após imprimir a quantidade de cédulas de R$50,00

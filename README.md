@@ -3,3 +3,5 @@
 Bootcamp para aprender Python3.
 
 Repositório com exercícios do bootcamp.
+
+## Exercícios resolvidos
