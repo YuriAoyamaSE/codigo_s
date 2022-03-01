@@ -1,6 +1,6 @@
 # Lista de exercícios
-# Tema: tipos numéricos
-# Diversão do carnaval \o/
+## Tema: tipos numéricos
+## Diversão do carnaval \o/
 
 ### Exercício 1: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval01/tipo_numerico01.py)
 

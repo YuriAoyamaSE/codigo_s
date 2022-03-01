@@ -1,6 +1,6 @@
 # Lista de exercícios
-# Tema: listas
-# Diversão do carnaval \o/
+## Tema: listas
+## Diversão do carnaval \o/
 
 ### Exercício 1: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval02/listas01.py)
 
