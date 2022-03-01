@@ -5,5 +5,6 @@ Bootcamp para treinamento em Python3.
 
 [Repositório das aulas](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas)
 
-[Exercícios resolvidos](https://github.com/YuriAoyamaSE/codigo_s/tree/main/exercicios)
+[Exercícios do livro: Introdução à Programação com Python](https://github.com/YuriAoyamaSE/codigo_s/tree/main/exercicios)
 
+[Exercícios extras](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios)
