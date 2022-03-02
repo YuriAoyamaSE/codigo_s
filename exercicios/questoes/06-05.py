@@ -3,7 +3,8 @@ Altere o Programa 6.7 de forma a poder trabalhar com vários comandos digitados 
 
 Exemplo: FFFAAAS significaria três chegadas de novos clientes, três atendimentos e, finalmente, a saída do programa.
 
-Sem acessoGabarito:
+Sem acesso
+Gabarito:
 """
 
 último = 10
