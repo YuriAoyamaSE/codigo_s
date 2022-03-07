@@ -2,6 +2,7 @@
 ## Tema: listas
 ## Diversão do carnaval \o/
 
+
 ### Exercício 1: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval02/listas01.py)
 
 Crie uma variável do tipo lista com 5 elementos (você escolhe quais serão). Imprima na tela o elemento e sua respectiva posição na lista. Exemplo: para a lista [1, 3, 6, “H”, [7,7,7]] a saída deve ser:

@@ -2,6 +2,7 @@
 ## Tema: tipos numéricos
 ## Diversão do carnaval \o/
 
+
 ### Exercício 1: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval01/tipo_numerico01.py)
 
 Faça um programa que receba dois números inteiros do usuário, A e B e imprima na tela as seguintes operações:
@@ -28,6 +29,7 @@ Dica!
 A área de um triângulo é dada pela seguinte fórmula abaixo
 area=(base x altura)/2
 
+
 ### Exercício 3: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval01/tipo_numerico03.py)
 
 No exercício acima você calculou a área de um triângulo a partir da sua base e altura. Faça um programa que receba os 3 lados de um triângulo – s1, s2 e s3 – e calcule sua área. Compare a resposta com o exercício acima, dada das mesmas entradas. Os resultados devem ser idênticos.
@@ -37,6 +39,7 @@ Dica!
 A área de um triângulo também é dada pela seguintes fórmulas abaixo
 s=(s1+s2+s3)/2
 area=√(s.(s-s1).(s-s2).(s-s3)  )
+
 
 ### Exercício 4: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval01/tipo_numerico04.py)
 

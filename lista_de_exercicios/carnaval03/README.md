@@ -2,6 +2,7 @@
 ## Tema: dicionários e sets
 ## Diversão do carnaval \o/
 
+
 ### Exercício 1: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval03/dicionario01.py)
 
 Digamos que existam 2 cursos de idiomas em uma escola, inglês e francês, e que existam alunos matriculados conforme abaixo:
@@ -36,12 +37,14 @@ Faça um programa que responda as seguintes perguntas:
 4.	Quantos e quais estão matriculados EM AMBOS os cursos?
 5.	Quantos alunos estão matriculados somente em francês ou somente em inglês, mas não em ambos os cursos?
 
+
 ### Exercício 2: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval03/dicionario02.py)
 
 Faça um programa que lê uma sigla de um estado do usuário e imprime na tela o nome completo do estado. Exemplo:
 
 >>> Digite um estado: SP
 >>> O nome completo do estado é São Paulo.
+
 
 ### Exercício 3: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval03/dicionario03.py)
 
@@ -57,6 +60,7 @@ Escreva um programa para encontrar o tamanho do comprimento das strings nos valo
 >>> {1: “vermelho”, 2: “azul”, 3: “marrom”}
 A saída deverá ser
 >>> {1: 8, 2: 4, 3: 6}
+
 
 ### Exercício 5: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval03/dicionario05.py)
 

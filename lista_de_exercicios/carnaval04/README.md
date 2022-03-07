@@ -2,15 +2,17 @@ Lista de exercícios
 Tema: condicionais
 Diversão do carnaval \o/
 
-Exercício 1:
+Exercício 1:  [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval04/condicionais01.py)
 
 Escreva um programa que diga se um número dado pelo usuário é par ou ímpar
 
-Exercício 2:
+
+Exercício 2: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval04/condicionais02.py)
 
 Escreva um programa que receba dois números e imprima na tela se o primeiro é divisível pelo segundo.
 
-Exercício 3:
+
+Exercício 3: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval04/condicionais03.py)
 
 A tabela a seguir lista os níveis sonoros em decibéis para alguns barulhos comuns
 Barulho	Nível sonoro (dB)
@@ -23,7 +25,7 @@ Cômodo em silêncio	40
 Escreva um programa que leia um valor de nível sonoro do usuário em decibéis. Se o valor for um dos que estão na tabela, o programa deve retornar aquele barulho. Caso o número esteja entre algum dos valores da tabela, o programa deve dizer entre quais barulhos o valor digitado está. Seu programa deve informar também quando o valor for menor que o ruído mínimo da tabela e maior que ruído máximo. 
 
 
-Exercício 4:
+Exercício 4: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval04/condicionais04.py)
 
 Faça um programa que imprima na tela se um dado ano é bissexto ou não de acordo com as regras na ordem abaixo:
 
@@ -33,7 +35,7 @@ Faça um programa que imprima na tela se um dado ano é bissexto ou não de acor
 4.	Todos os outros anos não são bissextos
 
 
-Exercício 5:
+Exercício 5: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval04/condicionais05.py)
 
 Escreva um programa que receba uma string e diga se ela tem o formato de uma placa veicular brasileira (no formato antigo) com três letras, um traço e quatro números. Exemplos: 
 •	Dada a entrada ABT-1234 o programa deveria exibir True
