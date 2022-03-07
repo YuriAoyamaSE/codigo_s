@@ -17,4 +17,3 @@ if primo:
     print(f"O numero {numero} é primo.")
 else:
     print(f"O numero {numero} não é primo.")
-

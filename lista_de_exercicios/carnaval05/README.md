@@ -1,8 +1,9 @@
-Desafios!
-Onde o filho chora e a mãe não vê! Muahahahahaha...
-(Brincadeiras à parte, todos vocês serão capazes! Cada um no seu tempo!)
+#Desafios!
+##Onde o filho chora e a mãe não vê! Muahahahahaha...
+##(Brincadeiras à parte, todos vocês serão capazes! Cada um no seu tempo!)
 
-Desafio 1:
+
+### Desafio 1: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval05/desafio01.py)
 
 Implemente um jogo em que o usuário tenha que adivinhar um número sorteado pelo computador.
 
@@ -17,7 +18,8 @@ c.	Caso o usuário informe um número igual ao número sorteado, o jogo deve apr
 Dica!
 Pesquise sobre o módulo buit-in do Python chamado random
 
-Desafio 2:
+
+### Desafio 2: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval05/desafio02.py)
 Implemente um jogo em que o usuário tenha que adivinhar o somatório de dois dados.
 1.	O jogo deve sortear um número para cada dado. Estes números devem variar entre 1 e 6, inclusive. Deve-se calcular a soma dos dois valores.
 2.	O usuário deve informar um número. O número informado pelo usuário deve ser validado: não pode ser inferior a 2 ou superior a 12. Enquanto o usuário informar um número inválido, o jogo deve solicitar a entrada de um novo número.
@@ -26,7 +28,8 @@ a.	Caso o usuário informe um número superior ou inferior à soma dos dados, o 
 b.	Caso o usuário informe um número igual ao valor da soma, o jogo deve apresentar a mensagem “Parabéns! Você acertou a soma dos dados! O valor do primeiro dado é d1 e o do segundo é d2. ”, sendo d1 o valor do primeiro dado e d2 o valor do segundo dado
 4.	Ao final do jogo, deve-se questionar o usuário se ele deseja jogar novamente. Caso afirmativo, todo o processo deve ser repetido. Caso contrário, o jogo deve ser encerrado.
 
-Exercício 3:
+
+### Exercício 3: [Resposta](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios/carnaval05/desafio03.py)
 Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
 
 O que são anagramas? https://pt.wikipedia.org/wiki/Anagrama
