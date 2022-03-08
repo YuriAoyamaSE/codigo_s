@@ -12,3 +12,34 @@ c.	Caso o usuário informe um número igual ao número sorteado, o jogo deve apr
 Dica!
 Pesquise sobre o módulo buit-in do Python chamado random
 """
+
+from random import randrange
+
+print("***** Bem vindos ao jogo de adivinhação do Código[s] *****")
+
+continuar = "s"
+
+while continuar == "s":
+    total_de_tentativas = 0
+    numero_sorteado = randrange(1,101)
+    numero_do_usuario = 0
+
+    while numero_do_usuario != numero_sorteado:
+        numero_do_usuario = int(input("Digite um número de 1 a 100: "))
+        if numero_do_usuario not in range(1,101):
+            print("Você digitou um número inválido.")
+            total_de_tentativas -= 1
+        elif numero_do_usuario < numero_sorteado:
+            print("O número sorteado é maior.")        
+        elif numero_do_usuario > numero_sorteado:
+            print("O número sorteado é menor.")
+
+        total_de_tentativas += 1
+    
+    print("Parabéns! Você acertou o número sorteado")
+    print(f"Total de tentativas: {total_de_tentativas}")
+    print("*********** Fim do jogo ***********")
+
+    continuar = input("\nDeseja jogar novamente? (s/n) ")
+
+print("*********** Jogo encerrado ***********")
