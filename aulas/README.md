@@ -12,3 +12,5 @@
 [Aula 05 - Estruturas de Repetição](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula05)
 
 [Aula 06 - Funções](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula06)
+
+[Aula 07 - Módulos, pacotes e ambientes virtuais](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula07)

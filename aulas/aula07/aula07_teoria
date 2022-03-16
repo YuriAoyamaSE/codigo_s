@@ -1,0 +1,51 @@
+"""
+Bootcamp código[s]
+Data: 15/03/2022
+aula 07
+tema: Módulos, pacotes e ambientes virtuais
+"""
+
+----------------DEFINIÇÕES----------------
+- Script: arquivo .py com COMANDOS python.
+- Módulo: arquivo .py somente com funções e definições.
+- Pacote: Pasta com vários módulos
+- Ambiente virtual: ambiente isolado para programação.
+
+Obs: pode encarar bibliotecas e pacotes como sinônimos. Porém, enquanto os módulos necessitam importação, os pacotes necessitam de instalação (download) e posterior importação.
+
+
+--------------MÓDULOS BUILT-IN--------------
+São módulos com funcionalidades extras do python.
+Precisa importar o módulo para utilizar.
+    - outros tipos de dados (OrderedDict, Queue, Frozenset, Deque, ...)
+    - processamento de texto (string, re, ...)
+    - operações matemáticas e numéricas
+    - datas (datetime)
+    - diretórios e arquivos (path, glob, shutil)
+    - interface com sistema operacional (os)
+    - estruturas de dados (csv, xml, json, html)
+    - ...
+
+
+-------------------PACOTES-------------------
+Externos e próprios
+    - necessidade de instalação (download e instalação)
+    - gerenciador de pacotes pip (e outros: poetry, conda)
+    - específicos (mini-software, versionamento)
+    - ex.: django, flask, pytest, requests
+    - open-source armazenados no repositório aberto Python Package
+    - podem ser criados em repositórios privados (empresas)
+
+Ordem de importações (PEP8 - boas práticas)
+    1º: módulos built-in
+        ex.: os, sys
+    2º: pacotes de terceiros
+        ex.: pandas, numpy
+    3º: módulos/pacotes próprios
+
+
+----------------AMBIENTE VIRTUAL----------------
+Para isolamentode projetos, evitando interferência.
+Utilização de módulo built-in chamado "venv" (além de outros gerenciadores de ambiente).
+
+
