@@ -4,3 +4,12 @@ Escreva um programa que compare duas listas. Considere a primeira lista como a v
 • os novos elementos
 • os elementos que foram removidos
 """
+
+original = {1,3,4,6,9,11,20}
+modificado = {1,3,5,7,9,11,13}
+
+print(f"Lista original: {original}")
+print(f"Lista modificada: {modificado}")
+print(f"Elementos mantidos: {original & modificado}")
+print(f"Elementos novos: {modificado - original}")
+print(f"Elementos removidos: {original - modificado}")
