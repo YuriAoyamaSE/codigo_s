@@ -7,12 +7,27 @@ Elabore uma função que identifica e mostra na tela todos os quadrados mágicos
 
 """
 
-def mostra_quadrado_magico():
+from itertools import permutations
+
+def quadrado_magico():
     vetor = list(range(1,10))
-    matriz = {}
 
-    for _ in range(3):
-        matriz[linha01] = [1,2,3]
+    for vetor in list(permutations(vetor)):
+        parametro = sum(vetor[:3]) #linha1
+        condicoes = (
+            parametro == sum(vetor[3:6]) #linha2
+            and parametro == sum(vetor[6:]) #linha3
+            and parametro == sum([vetor[0], vetor[3], vetor[6]]) #coluna1
+            and parametro == sum([vetor[1], vetor[4], vetor[7]]) #coluna2
+            and parametro == sum([vetor[2], vetor[5], vetor[8]]) #coluna3
+            and parametro == sum([vetor[0], vetor[4], vetor[8]]) #diagonal1
+            and parametro == sum([vetor[2], vetor[4], vetor[6]]) #diagonal2
+        )
+        if condicoes:        
+            print(f"{vetor[0]}  {vetor[1]}  {vetor[2]}")
+            print(f"{vetor[3]}  {vetor[4]}  {vetor[5]}")
+            print(f"{vetor[6]}  {vetor[7]}  {vetor[8]}")
+            print()
 
-    for key in matriz:
-        print(matriz[key]) 
+
+quadrado_magico()
