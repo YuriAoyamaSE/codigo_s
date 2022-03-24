@@ -14,3 +14,7 @@
 [Aula 06 - Funções](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula06)
 
 [Aula 07 - Módulos, pacotes e ambientes virtuais](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula07)
+
+[Aula 08 - Ambiente Virtual (venv)](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula08)
+
+[Aula 09 - Bibliotecas Built-In](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula09)
