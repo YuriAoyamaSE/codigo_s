@@ -4,7 +4,7 @@ from string import ascii_letters
 def get_secret_word() -> str:
     """Devolve uma palavra aleatória de uma lista em maiúsculo."""
     words_list = list()
-    with open("palavras.txt", "r") as document:
+    with open("C:\\Users\\yuri_\\OneDrive\\PROJETO-TI\\PROJETOS_PYTHON\\codigo_s\\aulas\\aula12\\palavras.txt", "r") as document:
         for word in document:
             word = word.strip().upper()
             words_list.append(word)
@@ -25,7 +25,7 @@ def read_input_player(missed_letters:list, correct_letters:list) -> str:
             return user_letter
 
 
-def guess_letter(user_letter: str, secret_word: str, missed_letters: list, correct_letters: list):
+def guess_letter(user_letter: str, secret_word: str, missed_letters: list, correct_letters: list) -> bool:
     """Verifica se uma letra está na palavra secreta ou já foi jogada, seja certa ou errada."""
     print()    
     index = 0
