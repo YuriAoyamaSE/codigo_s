@@ -3,7 +3,7 @@ import bingo
 
 #while True:
 todos_sorteios = []
-cartelas_geradas = []
+#cartelas_geradas = []
 jogos_simulados = 0
 jogos_a_simular = 10**3
 

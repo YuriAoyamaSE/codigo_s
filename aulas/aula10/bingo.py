@@ -1,6 +1,6 @@
 from copy import deepcopy
 from collections import defaultdict
-from random import randint, choice
+from random import choice
 
 def iniciar():
     """Inicia ou restaura configurações iniciais"""
@@ -13,7 +13,6 @@ def iniciar():
 def gerar_cart() -> defaultdict:
     """Retorna uma cartela aleatória de bingo"""
     cartela = defaultdict(list) #vai iniciar como uma lista vazia, para não precisar iniciar cada letra como uma lista vazia
-
     for letra in LETRAS:        
         while len(cartela[letra]) < 5:
             num_aleatorio = choice(intervalo_cartela[letra])
