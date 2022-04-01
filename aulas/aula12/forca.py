@@ -68,6 +68,7 @@ def draw_hangman(errors: int) -> None:
     else:
         print(" |     ")
     print("------------")
+    return None
 
 
 def print_game_board(correct_letters: list, missed_letters: list, attempts: int) -> None:
@@ -78,6 +79,7 @@ def print_game_board(correct_letters: list, missed_letters: list, attempts: int)
     print(f"Você possui {attempts - errors} tentativas!")
     draw_hangman(errors)
     print("Palavra secreta: " + " ".join(correct_letters))
+    return None
 
 
 def game_score(secret_word: str, correct_letters: list) -> None:
@@ -94,10 +96,33 @@ def game_score(secret_word: str, correct_letters: list) -> None:
         print("------------    ´ `       ")
         print("                          ")
     else:
-        print("Suas tentativas acabaram. Você foi enforcado!")
-        print(" _______")
-        print(" |     |")
-        print(" |     O")
-        print(" |    ´|`")
-        print(" |    ´ `")
-        print("------------")
+        print("Suas tentativas acabaram...")
+        print(r"""
+        ___________.._______
+        | .__________))______|
+        | | / /      ||
+        | |/ /       ||
+        | | /        ||.-''.
+        | |/         |/  _  \
+        | |          ||  `/,|
+        | |          (\\`_.'
+        | |         .-`--'.
+        | |        /Y . . Y\
+        | |       // |   | \\
+        | |      //  | . |  \\
+        | |     ')   |   |   (`
+        | |          ||'||
+        | |          || ||
+        | |          || ||
+        | |          || ||
+        | |         / | | \
+        ''''''''''|_`-' `-' |'''|
+        |'|'''''''\ \       ''|'|
+        | |        \ \        | |
+        : :         \ \       : :  
+        . .          `'       . .
+        VOCÊ FOI ENFORCADO!
+        """
+        )
+        return None
+        
