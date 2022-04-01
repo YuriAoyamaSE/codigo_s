@@ -1,10 +1,11 @@
 from random import choice
 from string import ascii_letters
+from PIL import Image
 
 def get_secret_word() -> str:
     """Devolve uma palavra aleatória de uma lista em maiúsculo."""
     words_list = list()
-    with open("C:\\Users\\yuri_\\OneDrive\\PROJETO-TI\\PROJETOS_PYTHON\\codigo_s\\aulas\\aula12\\palavras.txt", "r") as document:
+    with open(r"aulas\aula12\palavras.txt", "r") as document:
         for word in document:
             word = word.strip().upper()
             words_list.append(word)
@@ -95,6 +96,8 @@ def game_score(secret_word: str, correct_letters: list) -> None:
         print(" |              ´|`       ")
         print("------------    ´ `       ")
         print("                          ")
+        victory_img = Image.open(r"aulas\aula12\victory.png")
+        victory_img.show()
     else:
         print("Suas tentativas acabaram...")
         print(r"""
@@ -122,7 +125,8 @@ def game_score(secret_word: str, correct_letters: list) -> None:
         : :         \ \       : :  
         . .          `'       . .
         VOCÊ FOI ENFORCADO!
-        """
+        """        
         )
+        gameover_img = Image.open(r"aulas\aula12\gameover.png")
+        gameover_img.show()
         return None
-        
