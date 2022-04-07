@@ -6,9 +6,7 @@ def get_secret_word() -> str:
     """Devolve uma palavra aleatória de uma lista em maiúsculo."""
     words_list = list()
     with open(r"aulas\aula12\palavras.txt", "r") as document:
-        for word in document:
-            word = word.strip().upper()
-            words_list.append(word)
+        words_list = document.read().strip().upper().split()
     return choice(words_list)
 
 

@@ -18,3 +18,12 @@
 [Aula 08 - Ambiente Virtual (venv)](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula08)
 
 [Aula 09 - Bibliotecas Built-In](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula09)
+
+[Aula 10 - Game Bingo](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula10)
+
+Aula 11 - Soft Skills
+
+[Aula 12 - Game Hangman](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula12)
+
+[Aula 13 - Magic Cubes](https://github.com/YuriAoyamaSE/codigo_s/tree/main/aulas/aula13)
+
