@@ -192,39 +192,39 @@ Capítulo 7
 
 Capítulo 8
 
-[8-1 Escreva uma função que retorne o maior de dois números]
+[8-1 Escreva uma função que retorne o maior de dois números](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-01.py)
 
-[8-2 Múltiplos]
+[8-2 Múltiplos](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-02.py)
 
-[8-3 Escreva uma função que calcule a área de um quadrado]
+[8-3 Escreva uma função que calcule a área de um quadrado](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-03.py)
 
-[8-4 Calcule a área de um triângulo]
+[8-4 Calcule a área de um triângulo](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-04.py)
 
-[8-5 Reescreve a função do Programa 8.1 para utilizar os métodos de pesquisa]
+[8-5 Reescreve a função do Programa 8.1 para utilizar os métodos de pesquisa](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-05.py)
 
-[8-6 Reescreva o programa 8.2 para utilizar for em vez de while]
+[8-6 Reescreva o programa 8.2 para utilizar for em vez de while](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-06.py)
 
-[8-7 Calcule o maior divisor comum (MDC)]
+[8-7 Calcule o maior divisor comum (MDC)](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-07.py)
 
-[8-8 Calcule o menor múltiplo comum (MMC)]
+[8-8 Calcule o menor múltiplo comum (MMC)](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-08.py)
 
-[8-9 Rastreie o Programa 8.6 e compare o seu resultado com o apresentado]
+[8-9 Rastreie o Programa 8.6 e compare o seu resultado com o apresentado](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-09.py)
 
-[8-10 Escreve uma função que calcule a sequência de Fibonacci sem recursão]
+[8-10 Escreve uma função que calcule a sequência de Fibonacci sem recursão](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-10.py)
 
-[8-11 Validação do número de caracteres em uma string]
+[8-11 Validação do número de caracteres em uma string](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-11.py)
 
-[8-12 Procura uma string dentro de uma lista]
+[8-12 Procura uma string dentro de uma lista](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-12.py)
 
-[8-13 Advinhe o número com 3 tentativas]
+[8-13 Advinhe o número com 3 tentativas](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-13.py)
 
-[8-14 Modifique o programa do jogo da forca para escolher aleatoriamente a palavra a adivinhar]
+[8-14 Modifique o programa do jogo da forca para escolher aleatoriamente a palavra a adivinhar](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-14.py)
 
-[8-15 Use a função type para imprimir os tipos dos elementos de uma lista]
+[8-15 Use a função type para imprimir os tipos dos elementos de uma lista](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-15.py)
 
-[8-16 Escreva um generator de número primos]
+[8-16 Escreva um generator de número primos](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-16.py)
 
-[8-17 Escreva um generator da séria de Fibonacci]
+[8-17 Escreva um generator da séria de Fibonacci](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/08-17.py)
 
 Capítulo 9
 
