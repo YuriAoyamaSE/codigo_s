@@ -7,3 +7,9 @@ máximo(7, 7) == 7
 
 Resposta:
 """
+
+def bigger_number(*number):
+    return max(number)
+
+print(bigger_number(1,2,3,4,5))
+print(bigger_number(1,2,3))

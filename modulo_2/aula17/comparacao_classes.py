@@ -31,6 +31,14 @@ class Employee:
     def __lt__(self, other) -> bool:
         return self.salary < other.salary
 
+    # operações matemáticas
+    def __add__(self, other) -> int:
+        return self.salary + other.salary
+    def __sub__(self, other) -> int:
+        return self.salary - other.salary
+    def __mul__(self, other) -> int:
+        return self.salary + other.salary
+
 
 emp1 = Employee("Joao", 2000)
 emp2 = Employee("Joao", 3000)
@@ -40,3 +48,5 @@ print(emp1 >= emp2)
 print(emp1 <= emp2)
 print(emp1 > emp2)
 print(emp1 < emp2)
+
+print(emp1 + emp2)

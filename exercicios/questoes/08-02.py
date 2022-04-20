@@ -7,3 +7,10 @@ múltiplo(5, 5) == True
 
 Resposta:
 """
+
+def testar_multiplo(a,b):
+    return a % b == 0
+
+print(testar_multiplo(4,2))
+print(testar_multiplo(5,2))
+print(testar_multiplo(75,5))
