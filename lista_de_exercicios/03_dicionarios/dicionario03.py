@@ -8,3 +8,10 @@ def ordena_por_valor(dicionario):
     return nova_ordem
 
 print(ordena_por_valor(materias))
+
+
+"""
+# solução do facilitador:
+ordered_dict = dict(sorted(dict_to_order.items(), key=lambda tupla: tupla[1], reverse=True))
+
+"""
