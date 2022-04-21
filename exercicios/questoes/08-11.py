@@ -6,3 +6,11 @@ mínimo, e falso, caso contrário.
 
 Resposta:
 """
+
+def valida_string(string: str, char_min:int, char_max:int) -> bool:
+    return len(string) > char_min and len(string) < char_max
+
+
+print(valida_string("casa",2,5))
+print(valida_string("casa",4,5))
+print(valida_string("casa",2,4))

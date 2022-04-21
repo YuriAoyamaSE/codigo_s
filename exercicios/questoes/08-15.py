@@ -3,3 +3,16 @@ A cada nível, imprima a lista mais à direita, como fazemos ao indentar blocos 
 
 Resposta:
 """
+
+def print_list(lista, n=0):
+    for elemento in lista:
+        if type(elemento) == list:
+            print_list(elemento,n)
+        else:
+            print(" " * n,elemento)
+        n += 1
+    return None
+
+lista = [1, [2, 3, 4, [5, 6, 7]]]
+
+print_list(lista)

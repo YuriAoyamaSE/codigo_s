@@ -5,3 +5,9 @@ Retorne verdadeiro se a string for encontrada dentro da lista, e falso, caso con
 
 Resposta:
 """
+
+def procura_na_lista(string,lista) ->bool:
+    return string in lista
+
+print(procura_na_lista("casa",["maçã","uva", "pera","casa"]))
+print(procura_na_lista("casa",["maçã","uva", "pera","casas"]))
