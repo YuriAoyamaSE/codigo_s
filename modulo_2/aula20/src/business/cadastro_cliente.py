@@ -16,7 +16,7 @@ class CadastroCliente(CadastroAbtract):
 
     def consultar(self, id) -> Cliente:
         cliente = list(filter(lambda x: x.id == id, self.__clientes))
-        print(f'consultado {cliente[0].nome}')
+        return cliente[0]
 
     def remover_por_id(self, id: str) -> Cliente:
         print('removido')

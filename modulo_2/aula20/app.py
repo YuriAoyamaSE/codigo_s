@@ -21,4 +21,4 @@ cadastro.inserir(cliente_pessoa_juridica)
 
 cadastro.consultar('1')
 
-
+print(cliente.nome)
