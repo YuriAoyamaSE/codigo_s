@@ -1,0 +1,9 @@
+{
+    "nome": "maicon",
+    "idade": 33,
+    "cidade": "curitiba",
+    "veiculo": {
+        "marca": "GM",
+        "modelo": "chevet"
+    }
+}
