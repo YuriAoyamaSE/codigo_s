@@ -228,77 +228,78 @@ Capítulo 8
 
 Capítulo 9
 
-[9-1 Imprima todas as linhas de um arquivo cujo nome é passado pela linha de comando]
+[9-1 Imprima todas as linhas de um arquivo cujo nome é passado pela linha de comando](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-01.py)
 
-[9-2 Imprimia as linhas de um arquivo. O nome do arquivo, a primeira e última linha a imprimir serão passadas na linha de comando]
+[9-2 Imprimia as linhas de um arquivo. O nome do arquivo, a primeira e última linha a imprimir serão passadas na linha de comando](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-02.py)
 
-[9-3 Escreva um programa que junte dois arquivos de entrada em um único arquivo de saída, preservando a ordem numérica]
+[9-3 Escreva um programa que junte dois arquivos de entrada em um único arquivo de saída, preservando a ordem numérica](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-03.py)
 
-[9-4 Crie um programa que junte dois arquivos em um terceiro arquivo]
+[9-4 Crie um programa que junte dois arquivos em um terceiro arquivo](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-04.py)
 
-[9-5 Inverta as linhas de um arquivo]
+[9-5 Inverta as linhas de um arquivo](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-05.py)
 
-[9-6 Processe um arquivo linha a linha e interprete as linhas com = e ponto (.)]
+[9-6 Processe um arquivo linha a linha e interprete as linhas com = e ponto (.)](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-06.py)
 
-[9-7 Escreva um programa para paginar um arquivo-texto]
+[9-7 Escreva um programa para paginar um arquivo-texto](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-07.py)
 
-[9-8 Altere o programa anterior para receber o número de caracteres por linha e o número de linhas por página pela linha de comando]
+[9-8 Altere o programa anterior para receber o número de caracteres por linha e o número de linhas por página pela linha de comando](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-08.py)
 
-[9-9 Imprima vários arquivos cujos nomes serão passados na linha de comando]
+[9-9 Imprima vários arquivos cujos nomes serão passados na linha de comando](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-09.py)
 
-[9-10 Escreva um programa que gere um grande arquivo de saída com o conteúdo dos arquivos cujos nomes serão passados na linha de comandos]
+[9-10 Escreva um programa que gere um grande arquivo de saída com o conteúdo dos arquivos cujos nomes serão passados na linha de comandos](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-10.py)
 
-[9-11 Escreva um programa que conte quantas vezes cada palavra aparece em um arquivo]
+[9-11 Escreva um programa que conte quantas vezes cada palavra aparece em um arquivo](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-11.py)
 
-[9-12 Conte as palavras de um arquivo e também a linha e coluna onde cada ocorrência foi encontrada]
+[9-12 Conte as palavras de um arquivo e também a linha e coluna onde cada ocorrência foi encontrada](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-12.py)
 
-[9-13 Imprima um arquivo recebendo o nome do arquivo, a primeira e última linha a imprimir da linha de comandos]
+[9-13 Imprima um arquivo recebendo o nome do arquivo, a primeira e última linha a imprimir da linha de comandos](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-13.py)
 
-[9-14 Processe um arquivo, eliminando espaços repetidos e linhas em branco]
+[9-14 Processe um arquivo, eliminando espaços repetidos e linhas em branco](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-14.py)
 
-[9-15 Modifique o jogo da forca. Crie um arquivo com a lista de palavras e outro com os melhores 5 jogadores]
+[9-15 Modifique o jogo da forca. Crie um arquivo com a lista de palavras e outro com os melhores 5 jogadores](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-15.py)
 
-[9-16 Explique como os campos nome e telefone são armazenados no arquivo de saída]
+[9-16 Explique como os campos nome e telefone são armazenados no arquivo de saída](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-16.py)
 
-[9-17 Altere o Programa 9.6 para exibir o tamanho da agenda no menu principal]
+[9-17 Altere o Programa 9.6 para exibir o tamanho da agenda no menu principal](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-17.py)
 
-[9-18 O que acontece se nome ou telefone contiverem o caractere usado como separador em seus conteúdos? Explique o problema e proponha uma solução]
+[9-18 O que acontece se nome ou telefone contiverem o caractere usado como separador em seus conteúdos? Explique o problema e proponha uma solução](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-18.py)
 
-[9-19 Altere a função lista para que exiba também a posição de cada elemento]
+[9-19 Altere a função lista para que exiba também a posição de cada elemento](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-19.py)
 
-[9-20 Adicione a opção de ordenar a lista por nome no menu principal]
+[9-20 Adicione a opção de ordenar a lista por nome no menu principal](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-20.py)
 
-[9-21 Nas funções de altera e apaga, peça que o usuário confirme a alteração e exclusão do nome antes de realizar a operação em si]
+[9-21 Nas funções de altera e apaga, peça que o usuário confirme a alteração e exclusão do nome antes de realizar a operação em si](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-21.py)
 
-[9-22 Altere o programa da agenda para detectar se esta foi alterada e precisa ser gravada novamente]
+[9-22 Altere o programa da agenda para detectar se esta foi alterada e precisa ser gravada novamente](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-22.py)
 
-[9-23 Salve o nome do arquivo da última agenda lida em outro arquivo]
+[9-23 Salve o nome do arquivo da última agenda lida em outro arquivo](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-23.py)
 
-[9-24 Explique o que acontece com a agenda se ocorrer um erro de leitura ou gravação]
+[9-24 Explique o que acontece com a agenda se ocorrer um erro de leitura ou gravação](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-24.py)
 
-[9-25 Modifique as funções pega_nome e pega_telefone para receber um parâmetro opcional]
+[9-25 Modifique as funções pega_nome e pega_telefone para receber um parâmetro opcional](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-25.py)
 
-[9-26 Verifique se duas entradas na agende tem o mesmo nome. Gere um erro caso encontre nome duplicados]
+[9-26 Verifique se duas entradas na agende tem o mesmo nome. Gere um erro caso encontre nome duplicados](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-26.py)
 
-[9-27 Modifique a agenda para também controlar a data de aniversário e o email de cada pessoa]
+[9-27 Modifique a agenda para também controlar a data de aniversário e o email de cada pessoa](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-27.py)
 
-[9-28 Modifique a agenda para poder controlar vários telefones por pessoa e também tipos de telefone]
+[9-28 Modifique a agenda para poder controlar vários telefones por pessoa e também tipos de telefone](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-28.py)
 
-[9-29 Gere a listagem dos filmes em html]
+[9-29 Gere a listagem dos filmes em html](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-29.py)
 
-[9-30 Gere a listagem de filmes usando itens (listas) html]
+[9-30 Gere a listagem de filmes usando itens (listas) html](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-30.py)
 
-[9-31 Verifique se z é um diretório]
+[9-31 Verifique se z é um diretório](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-31.py)
 
-[9-32 Modifique o programa anterior para imprimir se o nome passado na linha de parâmetro é um arquivo ou diretório]
+[9-32 Modifique o programa anterior para imprimir se o nome passado na linha de parâmetro é um arquivo ou diretório](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-32.py)
 
-[9-33 Gere uma página html com links para images encontradas em um diretório]
+[9-33 Gere uma página html com links para images encontradas em um diretório](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-33.py)
 
-[9-34 Modifique o jogo da forca para cronometrar a duração da partida]
+[9-34 Modifique o jogo da forca para cronometrar a duração da partida](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-34.py)
 
-[9-35 Crie uma página HTML com o nome e tamanho de cada arquivo de um diretório passado e de seus subdiretórios]
+[9-35 Crie uma página HTML com o nome e tamanho de cada arquivo de um diretório passado e de seus subdiretórios](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-35.py)
 
-[9-36 crie um programa que calcule o espaço ocupado por cada diretório e subdiretório, gerando uma página html com os resultados]
+[9-36 crie um programa que calcule o espaço ocupado por cada diretório e subdiretório, gerando uma página html com os resultados](https://github.com/YuriAoyamaSE/codigo_s/blob/main/exercicios/questoes/09-36.py)
+
 
 Capítulo 10
 
