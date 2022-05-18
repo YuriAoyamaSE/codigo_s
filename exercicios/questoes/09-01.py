@@ -7,15 +7,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 """Gabarito:
 
 import sys
