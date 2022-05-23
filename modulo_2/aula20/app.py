@@ -14,11 +14,14 @@ cliente_pessoa_juridica = PessoaJuridica(
 cadastro = CadastroCliente()
 
 cadastro.inserir(cliente)
-
 cadastro.inserir(cliente_pessoa_fisica)
-
 cadastro.inserir(cliente_pessoa_juridica)
 
-cadastro.consultar('1')
+pessoa_juridica = cadastro.consultar('3')
+print(pessoa_juridica.nome)
 
-print(cliente.nome)
+cadastro.remover_por_id('1')
+cadastro.remover_por_entidade(cliente_pessoa_fisica)
+print(cadastro.listar_todos())
+
+print('FIM')
