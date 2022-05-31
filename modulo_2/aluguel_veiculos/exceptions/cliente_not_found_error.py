@@ -1,7 +1,7 @@
-from src.exceptions.base_aluguel_error import BaseAluguelError
+from exceptions.not_found_error import NotFoundError
 
 
-class ClienteNotFoundError(BaseAluguelError):
+class ClienteNotFoundError(NotFoundError):
     def __init__(self, *args: object) -> None:
         super().__init__(*args)
         
