@@ -25,9 +25,6 @@ Encontro 25 - Café com carreira
 
 [Encontro 26 - Teste unitários - parte 1](https://github.com/YuriAoyamaSE/codigo_s/tree/main/modulo_2/encontro26)
 
-[Encontro 27 - Testes unitários - parte 2](https://github.com/YuriAoyamaSE/codigo_s/tree/main/modulo_2/encontro27)
+* A partir do encontro 27, por trabalhar muito no mesmo projeto, irá ser unificado tudo na pasta "aluguel_veiculos"
 
-[Encontro 28 - Testes unitários - parte 3](https://github.com/YuriAoyamaSE/codigo_s/tree/main/modulo_2/encontro28)
-
-[Encontro 29 - Testes unitários - parte 4](https://github.com/YuriAoyamaSE/codigo_s/tree/main/modulo_2/encontro29)
-
+[Encontros 27, 28, 29 - Testes unitários - continuação](https://github.com/YuriAoyamaSE/codigo_s/tree/main/modulo_2/aluguel_veiculos)
