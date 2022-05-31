@@ -1,0 +1,8 @@
+*.ini
+teste_yuri.py
+__pycache__/
+gitignore/
+
+desktop.ini
+**/desktop.ini
+**/*/desktop.ini
