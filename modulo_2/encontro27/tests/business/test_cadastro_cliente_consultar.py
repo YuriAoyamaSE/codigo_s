@@ -1,6 +1,7 @@
 from unittest import TestCase, result
-from src.entities.cliente import Cliente
+
 from src.business.cadastro_cliente import CadastroCliente
+from src.entities.cliente import Cliente
 from src.exceptions.cliente_not_found_error import ClienteNotFoundError
 
 
