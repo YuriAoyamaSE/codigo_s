@@ -7,6 +7,8 @@ Bootcamp para treinamento em Python3.
 
 [Repositório das aulas do módulo 2](https://github.com/YuriAoyamaSE/codigo_s/tree/main/modulo_1)
 
+[Code Wars I](https://github.com/YuriAoyamaSE/codigo_s/tree/main/codewars-I-grupo-30-main)
+
 [Exercícios do livro: Introdução à Programação com Python](https://github.com/YuriAoyamaSE/codigo_s/tree/main/exercicios)
 
 [Exercícios extras](https://github.com/YuriAoyamaSE/codigo_s/blob/main/lista_de_exercicios)
