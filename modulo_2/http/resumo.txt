@@ -1,0 +1,6 @@
+O método: 
+- get é como se fosse uma função de puxar;
+- post é como se fosse uma função de inserir;
+- put é como se fosse uma função de atualizar;
+- delete função de apagar
+- path, options, head ...

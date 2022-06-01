@@ -9,3 +9,12 @@ with open("200.jpeg", 'wb') as file:
 print(f"Headers: {gatinho_200.headers}")
 print(f"Status code: {gatinho_200.status_code}")
 print(f"objeto: {gatinho_200}")
+
+
+gatinho_erro = requests.get("https://http.cat/404")
+
+with open("404.jpeg", 'wb') as file:
+    for gato in gatinho_erro:
+        file.write(gato)
+        
+        
