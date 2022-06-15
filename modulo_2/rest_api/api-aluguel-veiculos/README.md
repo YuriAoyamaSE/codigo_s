@@ -1,6 +1,5 @@
 # aluguel-veiculos
 
-
 ## UML 
 
 ### Cadastro de clientes
