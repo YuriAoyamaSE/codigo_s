@@ -43,14 +43,14 @@ def step_impl(context, quantidade):
     resultado = context.cadastro.listar_todos()
     assert len(resultado) == int(quantidade)
 
+
 @when(u'listado todos os veiculos')
 def step_impl(context):
     context.veiculos = context.cadastro.listar_todos()
+    
 
-
-@then(u'o resultado de ser')
+@then(u'o resultado deve ser')
 def step_impl(context):
     for row in context.table:
         resultado = list(filter(lambda x: x.id == row['id'], context.veiculos))
         assert resultado[0].placa == row['placa'] and resultado[0].km == row['km']
-        

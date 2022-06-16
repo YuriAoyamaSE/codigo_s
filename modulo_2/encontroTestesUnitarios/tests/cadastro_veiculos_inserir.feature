@@ -21,7 +21,7 @@ Cenario: validar veiculos cadastrados
     | 3 |"jtc1988"  |"1231" |
     | 4 |"jtc1988"  |"1231" |
     Quando listado todos os veiculos
-    Entao o resultado de ser
+    Entao o resultado deve ser
     |id | placa     |  km   |
     | 1 |"jtc1988"  |"1231" |
     | 2 |"jtc1988"  |"1231" |
