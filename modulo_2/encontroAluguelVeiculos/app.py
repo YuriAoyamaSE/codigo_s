@@ -21,7 +21,11 @@ def inserir_cliente():
     cadastro_cliente.inserir(cliente)
 
     return "ok", 201
-
+# Caso quisesse alterar algo nos Headers, pode ser feito através do Response.
+# Por exemplo: return Response("ok", 201, {"x-cod": "python"})
+# Iria criar um cabeçalho extra chamado x-cod com valor python
+# Da mesma forma para alterar valor doscabeçalhos padrões (Server, Date, etc)
+# É possível fazer por outros meios, como no jsonify ou make_response
 
 @app.route("/cliente/<id>", methods=['DELETE'])
 def delete_cliente(id):
@@ -29,7 +33,7 @@ def delete_cliente(id):
     return "", 204
 
 
-@app.route("/cliente")
+@app.route("/cliente")  # GET, por padrão
 def consultar_clientes():
     clientes = cadastro_cliente.listar_todos()
 
@@ -42,9 +46,12 @@ def consultar_clientes():
         clientes))
 
     return jsonify(resultado)
+    # Convertendo para uma lista json,
+    # mas poderia usar também o json.dumps().
+    # Lembrando que json trabalha com objeto dict.
 
 
-@app.route("/cliente/<id>")
+@app.route("/cliente/<id>")  # Path Parameter
 def consultar_cliente(id):
     try:
         cliente = cadastro_cliente.consultar(id)

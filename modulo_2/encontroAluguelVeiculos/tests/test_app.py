@@ -7,7 +7,8 @@ from src.business.cadastro_cliente import CadastroCliente
 def client():
     app.cadastro_cliente = CadastroCliente()
     return app.app.test_client()
-
+# vai limpar para fazer o teste, criando um novo cadastro.
+# Está gerando o parâmetro client que será recebido pelos testes abaixo
 
 def test_inserir_cliente(client):
     # Dado
