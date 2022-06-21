@@ -10,9 +10,9 @@ from .cadastro_abstract import CadastroAbtract
 class CadastroCliente(CadastroAbtract):
 
     def inserir(self, cliente: Cliente) -> None:
-        cnx = mysql.connector.connect(user='maicon', password='123456',
+        cnx = mysql.connector.connect(user='yuri', password='TaigaSQL22',
                                       host='127.0.0.1',
-                                      database='mydb')
+                                      database='aluguel')
         cursor = cnx.cursor()
         adiciona_cliente = ("INSERT INTO cliente "
                             "(nome, endereco, telefone, cpf, cnpj, tipo)"
