@@ -10,9 +10,7 @@ class CadastroVeiculo(CadastroAbtract):
         self.__veiculos: List[Veiculo] = []
 
     def inserir(self, veiculo: Veiculo):
-        cnx = mysql.connector.connect(user='yuri', password='TaigaSQL22',
-                                      host='127.0.0.1',
-                                      database='aluguel')
+        cnx = mysql.connector.connect()
         cursor = cnx.cursor()
         adiciona_cliente = (
             """INSERT INTO veiculo
@@ -20,7 +18,7 @@ class CadastroVeiculo(CadastroAbtract):
             VALUES ( %(placa)s, %(km)s, %(carga)s, %(bagageiro)s, %(portas)s, %(tipo)s)"""
         )
         # os parametros acima serão substituídos pelos dados do dict abaixo
-        #Lembrando que id está com auto incremento, então não precisa por
+        # Lembrando que id está com auto incremento, então não precisa por
         dados = {
             "placa": veiculo.placa,
             "km": veiculo.km,
