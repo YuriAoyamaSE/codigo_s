@@ -1,31 +1,47 @@
-from .entity import Entity
+from conexao_bd import gerar_cnx
 
-class Funcionario(Entity):
 
-    def __init__(self, id: int, nome: str, cpf: str, data_de_admissao: str, cargo: str, comissao: int):
-        super().__init__(id)
-        self.__nome: str = nome
-        self.__cpf: str = cpf
-        self.__data_de_admissao: str = data_de_admissao
-        self.__cargo: str = cargo
-        self.__comissao: str = comissao
+class Funcionario():
 
-    @property
-    def nome(self) -> str:
-        return self.__nome
+    def __init__(self, nome: str, cpf: str, data_admissao: str, cargo: str, comissao: bool, matricula = None):
+        self.nome = nome
+        self.cpf = cpf
+        self.data_admissao = data_admissao
+        self.cargo = cargo
+        self.comissao = comissao
+        self.matricula = 'Funcionário não cadastrado' if not matricula else matricula
 
-    @property
-    def cpf(self) -> str:
-        return self.__cpf
+    def __str__(self):
+        return self.nome
+    
+    def cargo_descricao(self) -> str:
+        cnx = gerar_cnx()
+        cursor = cnx.cursor()
+        cursor.execute(
+            f"SELECT descricao FROM cargos WHERE codigo = {self.cargo};")
+        output = cursor.fetchall()
+        cursor.close()
+        cnx.close()
+        return output[0][0]
 
-    @property
-    def data_de_admissao(self) -> str:
-        return self.__data_de_admissao
+    def cargo_salario_base(self) -> float:
+        cnx = gerar_cnx()
+        cursor = cnx.cursor()
+        cursor.execute(
+            f"SELECT salario_base FROM cargos WHERE codigo = {self.cargo};")
+        output = cursor.fetchall()
+        cursor.close()
+        cnx.close()
+        return float(output[0][0])
 
-    @property
-    def cargo(self) -> str:
-        return self.__cargo
-
-    @property
-    def comissao(self) -> str:
-        return self.__comissao
+    def cargo_comissao_valor(self) -> float:
+        if self.comissao:
+            cnx = gerar_cnx()
+            cursor = cnx.cursor()
+            cursor.execute(
+                f"SELECT comissao FROM cargos WHERE codigo = {self.cargo};")
+            output = cursor.fetchall()
+            cursor.close()
+            cnx.close()
+            return float(output[0][0])
+        return 0.0

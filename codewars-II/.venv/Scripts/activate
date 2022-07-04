@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\yuri_\OneDrive\PROJETO-TI\PROJETOS_PYTHON\codigo_s\codewars-II\.venv"
+VIRTUAL_ENV="C:\Users\yuri_\OneDrive\PROJETO-TI\PROJETOS_PYTHON\codewars-II\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
