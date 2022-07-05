@@ -1,0 +1,6 @@
+.env
+.venv
+.vscode
+*.sqlite3
+__pycache__
+rascunho.py
