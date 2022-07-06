@@ -1,2 +1,2 @@
-from .clienteviewset import ClienteViewSet
-from .veiculoviewset import VeiculoViewSet
+from .cliente_viewset import ClienteViewSet
+from .veiculo_viewset import VeiculoViewSet
