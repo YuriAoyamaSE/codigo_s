@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
+from locadora.views.cliente_viewset import ClienteViewset
 
 router = routers.DefaultRouter()
+router.register(r'cliente', ClienteViewset)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
