@@ -1,5 +1,9 @@
 # codewars-II
 
+## Considerações iniciais:
+Houve desistência do projeto por parte do grupo.
+Assim, o códigodeste projeto foi feito de maneira individual e com pouco tempo útil.
+
 ## PROJETO INCOMPLETO: paralisado temporariamente (término do prazo de entrega)
 ### => Funcionalidade de holerite em construção
 ### => BD de holerite em construção (criado, não testado)
