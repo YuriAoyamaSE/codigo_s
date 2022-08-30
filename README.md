@@ -3,6 +3,8 @@
 Bootcamp para treinamento em Python3.
 (Parceria entre Stone e How)
 
+De fevereiro a julhode 2022 (finalizado).
+
 ## Códigos principais produzidos no bootcamp:
 [Code Wars I](https://github.com/YuriAoyamaSE/codigo_s/tree/main/codewars-I-grupo-30-main)
 
